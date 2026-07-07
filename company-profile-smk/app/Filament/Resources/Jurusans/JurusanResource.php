@@ -20,6 +20,8 @@ class JurusanResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
     
+    // Memasukkan menu ini ke dalam grup Master Data yang sudah kamu buat
+    protected static string | \UnitEnum | null $navigationGroup = 'Master Data';
 
     protected static ?string $recordTitleAttribute = 'name';
 
